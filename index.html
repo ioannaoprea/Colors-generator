@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Picker</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+   
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main>
+        <div class="top-bar">
+            <input id="color-input" type="color">
+            <div class="selector">
+                <select id="color-scheme-type">
+                    <option value="monochrome">Monochrome</option>
+                    <option value="monochrome-dark">Monochrome-dark</option>
+                    <option value="monochrome-light">Monochrome-light</option>
+                    <option value="analogic">Analogic</option>
+                    <option value="complement">Complement</option>
+                    <option value="analogic-complement">Analogic-Complement</option>
+                    <option value="triad">Triad</option>
+                    <option value="quad">Quad</option>
+                </select>
+            </div>
+            <button id="get-color-btn">Get color scheme</button>
+        </div>
+        <div class="color-container">
+            <ul>
+                <li class="color">
+                    <div class="color-block"></div>
+                    <button class="color-name">#567</button>
+                </li>
+                <li class="color">
+                    <div class="color-block"></div>
+                    <button class="color-name">#567</button>
+                </li>
+                <li class="color">
+                    <div class="color-block"></div>
+                    <button class="color-name">#567</button>
+                </li>
+                <li class="color">
+                    <div class="color-block"></div>
+                    <button class="color-name">#567</button>
+                </li>
+                <li class="color">
+                    <div class="color-block"></div>
+                    <button class="color-name">#567</button>
+                </li>
+            </ul>
+        </div>
+    </main>
+    
+    <script src="./index.js"></script>
+</body>
+</html>
