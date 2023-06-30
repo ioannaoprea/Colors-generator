@@ -23,9 +23,9 @@
 
 ## Project walkthrough
 
-1.Select a color.
-2.Select a scheme type.
-3.Click on "Get Color Scheme".
+- Select a color.
+- Select a scheme type.
+- Click on "Get Color Scheme".
 
 
 A solo project from the Scrimba.
